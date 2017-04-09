@@ -82,7 +82,7 @@ ul, ol {
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #FFF;
-	font-size: 12px;
+	font-weight: bold;
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {

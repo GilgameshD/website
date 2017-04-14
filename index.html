@@ -89,7 +89,7 @@
           <p>My mainly research area is computer vision, espacially about SLAM and robot vision. To be a robot researher, I also do some projects about hardware and electronic circuit, so I nearly do every thing about robot.</p>
           <i class="fa fa-check-square-o"></i>
           <h4>What I Am Intersted In ?</h4>
-          <p>Anything about technology can draw my attention, anyone love technology can be my friend. I am happy to communicate with people who have good ideas to change something. </p>
+          <p>Anything about technology can draw my attention, anyone who loves technology can be my friend. I am happy to communicate with people who have good ideas to change something. </p>
         </div>
       </div>
     </div>
@@ -276,7 +276,7 @@
         <li><a href="#"><i class="fa fa-wechat"></i></a></li>
         <li><a href="#"><i class="fa fa-qq"></i></a></li>
         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="#"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://github.com/GilgameshD"><i class="fa fa-github"></i></a></li>
       </ul>
     </div>
   </div>
@@ -291,7 +291,8 @@
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
 <script src="js/owl.carousel.js"></script> <script>
-    $(window).load(function() {
+    $(window).load(function() 
+    {
         var $container = $('.portfolio-items');
         $container.isotope({
             filter: '*',
@@ -301,13 +302,15 @@
                 queue: false
             }
         });
-        $('.cat a').click(function() {
+        $('.cat a').click(function() 
+        {
             $('.cat .active').removeClass('active');
             $(this).addClass('active');
             var selector = $(this).attr('data-filter');
             $container.isotope({
                 filter: selector,
-                animationOptions: {
+                animationOptions: 
+                {
                     duration: 750,
                     easing: 'linear',
                     queue: false

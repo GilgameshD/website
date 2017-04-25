@@ -470,7 +470,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 nav#footer {
 	background: #222222;
 	color: #ddd;
-	padding: 20px 0 10px 0;
+	padding: 10px 0 4px 0;
 }
 nav#footer .fnav {
 	vertical-align: middle;

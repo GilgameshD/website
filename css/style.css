@@ -109,7 +109,7 @@ ul, ol {
 }
 /* Home Style */
 header {
-	background: url(../img/header-bg.jpg) no-repeat bottom center fixed;
+	background: url(../img/slider/01.jpg) no-repeat bottom center fixed;
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;

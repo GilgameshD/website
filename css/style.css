@@ -109,7 +109,7 @@ ul, ol {
 }
 /* Home Style */
 header {
-	background: url(../img/slider/01.jpg) no-repeat bottom center fixed;
+	background: url(../img/header.jpg) no-repeat bottom center fixed;
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
@@ -119,6 +119,31 @@ header p {
 	color: #ffffff;
 	font-size: 22px;
 }
+
+/* -------------------------------------  */
+#background-section 
+{
+	background: url(../img/slider/01.jpg);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	padding: 20px 0;
+}
+
+#background .item {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#background .item p {
+	font-weight: 400;
+
+	color: #eee;
+}
+/* -------------------------------------  */
+
 .intro-text {
 	position: relative;
 	padding-top: 555px;
@@ -138,7 +163,7 @@ a.fa.fa-angle-down {
 	padding: 10px 15px;
 	color: #fff;
 	font-size: 24px;
-	margin-top: 100px;
+	margin-top: 10px;
 	border: 0px solid #E74C3C;
 	transition: all 0.5s;
 	border-radius: 50%;
@@ -369,6 +394,7 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
+
 #works-section i.fa {
 	height: 30px;
 	width: 30px;
@@ -378,7 +404,7 @@ ol.type li a:hover {
 	border-radius: 50%;
 	color: #D2527F;
 }
-/* Testimonials Section */
+
 #testimonials-section {
 	background: url(../img/bg.jpeg);
 	background-size: cover;

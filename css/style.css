@@ -146,10 +146,10 @@ header p {
 
 .intro-text {
 	position: relative;
-	padding-top: 555px;
+	padding-top: 300px;
     padding-right: 0;
     padding-left: 0;
-    padding-bottom: 60px;
+    padding-bottom: 150px;
 }
 .intro-text H1 {
 	font-size: 40px;
@@ -163,7 +163,7 @@ a.fa.fa-angle-down {
 	padding: 10px 15px;
 	color: #fff;
 	font-size: 24px;
-	margin-top: 10px;
+	margin-top: 150px;
 	border: 0px solid #E74C3C;
 	transition: all 0.5s;
 	border-radius: 50%;

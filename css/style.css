@@ -107,9 +107,10 @@ ul, ol {
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
 }
+
 /* Home Style */
 header {
-	background: url(../img/header.jpg) no-repeat bottom center fixed;
+	/*background: url(../img/bg1.jpg) no-repeat bottom center fixed;*/
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
@@ -123,7 +124,7 @@ header p {
 /* -------------------------------------  */
 #background-section 
 {
-	background: url(../img/slider/01.jpg);
+	background: url(../img/bg3.jpeg);
 	background-size: cover;
 	background-position: top;
 	background-attachment: fixed;

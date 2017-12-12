@@ -1,1 +1,1 @@
-## address: https://www.wenhao.pub
+## address: http://www.wenhao.pub

@@ -32,10 +32,10 @@
             line-height: 25px;
         }
         #sidebar-wrapper {
-          background-color: #000000;
+          background-color: #FFFFFF;
         }
         .sidebar-nav li a {
-          color: #FFFFFF;
+          color: #000000;
         } 
     </style>
 </head>
@@ -49,39 +49,41 @@
                     <div id="profile" class="clearfix" style="display: table;margin:0 auto;">
                         <div class="portrait">
                             <a href="http://www.wenhao.pub/">
-                                <img class="img-circle" src="./files/profile.jpg" alt="Wenhao Ding" style="height:120px; width:120px; display:block; margin-left:auto; margin-right:auto">
+                                <img class="img-circle" src="./files/profile.jpg" alt="Wenhao Ding" style="height:140px; width:140px; display:block; margin-left:auto; margin-right:auto; margin-top:10px;">
                             </a>
                         </div>
                         
                         <div>
-                            <h4 style="color:#FFFFFF;padding-top:10px; margin-bottom:0px">Wenhao Ding</h4>
-                            <h4 style="color:#FFFFFF;margin-left:22px">丁文浩</h4>
+                            <h3 style="color:#000000;padding-top:10px; margin-bottom:0px">Wenhao Ding</h3>
+                            <h3 style="color:#000000;margin-left:30px; line-height:20px;">丁文浩</h3>
                         </div>
                     </div>
-                <div style="margin-left:10%; margin-top:10%; margin-right:10%; color:#FFFFFF">
-                    <p style="color:#FFFFFF;font-size:14px;line-height:15px"><i>Life always starts after one step outside of the comfortable zone.</i></p>
-                </div>
-                <div>
-                    <li><a href="#aboutme">About Me</a></li>
-                    <li><a href="#publications">Publications</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experiences">Experiences</a></li>
-                    <li><a href="#footprints">Footprints</a></li>
-                </div>
-                <div style="margin-left:10%; margin-top:10%; margin-right:10%; color:#FFFFFF">
+                <!--div style="margin-left:10%; margin-top:10%; margin-right:10%; color:#000000">
+                    <p style="color:#000000;font-size:14px;line-height:15px"><i>Life always starts after one step outside of the comfortable zone.</i></p>
+                </div-->
+                <!--div>
+                    <li style="line-height:25px;text-indent:10px"><a href="#aboutme">About Me</a></li>
+                    <li style="line-height:25px;text-indent:10px"><a href="#publications">Publications</a></li>
+                    <li style="line-height:25px;text-indent:10px"><a href="#projects">Projects</a></li>
+                    <li style="line-height:25px;text-indent:10px"><a href="#footprints">Footprints</a></li>
+                </div-->
+                <div style="margin-left:10%; margin-top:10%; margin-right:10%; color:#000000">
                     <div style="font-size:13px">
                         <li style="line-height:25px;text-indent:10px">
-                            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn</a>
+                            <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn</a>
                         </li>
                         <li style="line-height:25px;text-indent:10px">
-                            <a href="https://github.com/gilgameshd" target="_blank"><i class="fa fa-github"></i>&nbsp;&nbsp;&nbsp;&nbsp;Github</a>
+                            <a href="https://github.com/gilgameshd"><i class="fa fa-github"></i>&nbsp;&nbsp;&nbsp;&nbsp;Github</a>
                         </li>
                         <li style="line-height:25px;text-indent:10px">
-                            <a href="./files/wechat.JPG" target="_blank"><i class="fa fa-wechat"></i>&nbsp;&nbsp;&nbsp;Wechat</a>
+                            <a href="./files/wechat.JPG"><i class="fa fa-wechat"></i>&nbsp;&nbsp;&nbsp;Wechat</a>
+                        </li>
+                        <li style="line-height:25px;text-indent:10px">
+                            <a href="https://github.com/gilgameshd"><i class="fa fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a>
                         </li>
 
                         <li style="line-height:25px;text-indent:0px">
-                            <p style="font-size:12px"><br>dwh14@mails.tsinghua.edu.cn</p>
+                            <p style="font-size:12px"><br><strong>dwh14@mails.tsinghua.edu.cn</strong></p>
                         </li>
                     </div>
                 </div>
@@ -228,6 +230,21 @@
             <!-- New Project -->
             <div class="row">
                 <div class="col-md-3">
+                    <a href="http://www.wenhao.pub/project5_coorperation/">
+                        <img class="img-responsive img-hover" src="./project5_coorperation/1.gif" alt="" style="border:1px solid #000000">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h4><a href="http://www.wenhao.pub/project5_coorperation/"><font color=#473C8B><div style="line-height:2px">Coorperation Cars</div></font></a></h4>
+                    <p>Jul 18, 2016</p>
+                    <p style="line-height:20px"> This is a platform of coorperative cars, which are equipped with UWB to communicate with each other. With the distance information, cars are able to dynamically form a pre-defined formation. These cars are self-made and controlled by STM32 micro-chip.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+            <!-- New Project -->
+            <div class="row">
+                <div class="col-md-3">
                     <a href="http://www.wenhao.pub/project2_EDC/">
                         <img class="img-responsive img-hover" src="./project2_EDC/1.gif" alt="" style="border:1px solid #000000">
                     </a>
@@ -266,21 +283,6 @@
                     <h4><a href="http://www.wenhao.pub/project4_BLE/"><font color=#473C8B><div style="line-height:2px">BLE Localization System</div></font></a></h4>
                     <p>Jul 18, 2017</p>
                     <p style="line-height:20px">We developd a set of device that can use Received Signal Strength Indicator (RSSI) of Bluetooth signal to measure the distance between source device and the receiver. With reasonable layout, this device can work as a rough positioning system.</p>
-                </div>
-            </div>
-            <!-- /.row -->
-            <hr>
-            <!-- New Project -->
-            <div class="row">
-                <div class="col-md-3">
-                    <a href="http://www.wenhao.pub/project5_coorperation/">
-                        <img class="img-responsive img-hover" src="./project5_coorperation/1.gif" alt="" style="border:1px solid #000000">
-                    </a>
-                </div>
-                <div class="col-md-9">
-                    <h4><a href="http://www.wenhao.pub/project5_coorperation/"><font color=#473C8B><div style="line-height:2px">Coorperation Cars</div></font></a></h4>
-                    <p>Jul 18, 2016</p>
-                    <p style="line-height:20px"> This is a platform of coorperative cars, which are equipped with UWB to communicate with each other. With the distance information, cars are able to dynamically form a pre-defined formation. These cars are self-made and controlled by STM32 micro-chip.</p>
                 </div>
             </div>
             <!-- /.row -->

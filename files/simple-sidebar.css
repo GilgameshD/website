@@ -98,7 +98,7 @@
 
 @media(min-width:201px) {
     #wrapper {
-        padding-left: 200px;
+        padding-left: 0px;
     }
 
     #wrapper.toggled {

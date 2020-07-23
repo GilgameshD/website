@@ -1,0 +1,7 @@
+@inproceedings{ding2019new,
+  title={A New Multi-vehicle Trajectory Generator to Simulate Vehicle-to-Vehicle Encounters},
+  author={Ding, Wenhao and Wang, Wenshuo and Zhao, Ding},
+  booktitle= {International Conference on Robotics and Automation (ICRA)},
+  year={2019},
+  organization={IEEE}
+}

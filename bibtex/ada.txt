@@ -1,0 +1,9 @@
+@article{ding2019adaptive,
+  title={Adaptive multi-scale detection of acoustic events},
+  author={Ding, Wenhao and He, Liang},
+  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  volume={28},
+  pages={294--306},
+  year={2019},
+  publisher={IEEE}
+}

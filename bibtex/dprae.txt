@@ -1,0 +1,6 @@
+@article{arief2020deep,
+  title={Deep Probabilistic Accelerated Evaluation: A Certifiable Rare-Event Simulation Methodology for Black-Box Autonomy},
+  author={Arief, Mansur and Huang, Zhiyuan and Kumar, Guru Koushik Senthil and Bai, Yuanlu and He, Shengyi and Ding, Wenhao and Lam, Henry and Zhao, Ding},
+  journal={arXiv preprint arXiv:2006.15722},
+  year={2020}
+}

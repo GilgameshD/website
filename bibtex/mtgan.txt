@@ -1,0 +1,6 @@
+@article{ding2018mtgan,
+  title={Mtgan: Speaker verification through multitasking triplet generative adversarial networks},
+  author={Ding, Wenhao and He, Liang},
+  journal={arXiv preprint arXiv:1803.09059},
+  year={2018}
+}

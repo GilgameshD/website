@@ -1,0 +1,7 @@
+@inproceedings{ding2020learning,
+  title={Learning to Collide: An Adaptive Safety-Critical Scenarios Generating Method},
+  author={Ding, Wenhao and Xu, Minjun and Zhao, Ding},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2020},
+ organization={IEEE}
+}

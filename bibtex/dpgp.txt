@@ -1,0 +1,6 @@
+@article{xu2020task,
+  title={Task-Agnostic Online Reinforcement Learning with an Infinite Mixture of Gaussian Processes},
+  author={Xu, Mengdi and Ding, Wenhao and Zhu, Jiacheng and Liu, Zuxin and Chen, Baiming and Zhao, Ding},
+  journal={arXiv preprint arXiv:2006.11441},
+  year={2020}
+}

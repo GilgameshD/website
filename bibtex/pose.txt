@@ -1,0 +1,8 @@
+@inproceedings{ding2018vehicle,
+  title={Vehicle pose and shape estimation through multiple monocular vision},
+  author={Ding, Wenhao and Li, Shuaijun and Zhang, Guilin and Lei, Xiangyu and Qian, Huihuan},
+  booktitle={2018 IEEE International Conference on Robotics and Biomimetics (ROBIO)},
+  pages={709--715},
+  year={2018},
+  organization={IEEE}
+}

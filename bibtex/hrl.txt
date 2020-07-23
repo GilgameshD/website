@@ -1,0 +1,8 @@
+@inproceedings{ding2018hierarchical,
+  title={Hierarchical reinforcement learning framework towards multi-agent navigation},
+  author={Ding, Wenhao and Li, Shuaijun and Qian, Huihuan and Chen, Yongquan},
+  booktitle={2018 IEEE International Conference on Robotics and Biomimetics (ROBIO)},
+  pages={237--242},
+  year={2018},
+  organization={IEEE}
+}

@@ -1,0 +1,6 @@
+@article{ding2020multimodal,
+  title={Multimodal Safety-Critical Scenarios Generation for Decision-Making Algorithms Evaluation},
+  author={Ding, Wenhao and Chen, Baiming and Li, Bo and Eun, Kim Ji and Zhao, Ding},
+  journal={arXiv preprint arXiv:2009.08311},
+  year={2020}
+}

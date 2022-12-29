@@ -1,0 +1,6 @@
+@inproceedings{ding2022causalaf,
+  title={CausalAF: Causal Autoregressive Flow for Safety-Critical Driving Scenario Generation},
+  author={Ding, Wenhao and Lin, Haohong and Li, Bo and Zhao, Ding},
+  booktitle={6th Annual Conference on Robot Learning},
+  year={2022}
+}

@@ -1,0 +1,7 @@
+@article{ding2023survey,
+  title={A survey on safety-critical driving scenario generation—A methodological perspective},
+  author={Ding, Wenhao and Xu, Chejian and Arief, Mansur and Lin, Haohong and Li, Bo and Zhao, Ding},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2023},
+  publisher={IEEE}
+}

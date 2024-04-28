@@ -59,6 +59,11 @@ img.rounded-shadow {
   transition: box-shadow 0.3s ease-in-out; /* Optional: Adds a smooth transition effect on hover */
 }
 
+img.shadow {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Adjust values for different shadow effects */
+  transition: box-shadow 0.3s ease-in-out; /* Optional: Adds a smooth transition effect on hover */
+}
+
 .img-responsive {
   width: 100%; /* Default to full width */
   height: auto; /* Maintain aspect ratio */

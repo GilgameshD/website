@@ -53,15 +53,20 @@
   flex: 1; /* Takes the remaining space */
 }
 
+img.rounded-shadow {
+  border-radius: 15px; /* Adjust the px value to get the desired roundness */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Adjust values for different shadow effects */
+  transition: box-shadow 0.3s ease-in-out; /* Optional: Adds a smooth transition effect on hover */
+}
 
-/* img {
-  width: 100%; 
-  height: auto; 
-  max-width: 800px; 
-} */
+.img-responsive {
+  width: 100%; /* Default to full width */
+  height: auto; /* Maintain aspect ratio */
+}
 
-@media only screen and (max-width: 600px) {
-  img {
-      max-width: 400px; 
+@media (max-width: 1000px) { /* Adjusts for devices with screens up to 768px wide */
+  .img-responsive {
+      width: 30%; /* Reduce width to 50% on smaller screens */
+      margin-bottom: 15px;
   }
-} 
+}

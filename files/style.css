@@ -53,16 +53,15 @@
   flex: 1; /* Takes the remaining space */
 }
 
-/* Apply styles for all devices */
-myimg {
-  width: 100%; /* Make images responsive */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 800px; /* Maximum width for large devices */
-}
 
-/* CSS Media Query for devices with max-width of 600px */
+/* img {
+  width: 100%; 
+  height: auto; 
+  max-width: 800px; 
+} */
+
 @media only screen and (max-width: 600px) {
-  myimg {
-      max-width: 100%; /* Restrict max width to 100% of the screen on small devices */
+  img {
+      max-width: 100%; 
   }
-}
+} 

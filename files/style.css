@@ -71,7 +71,19 @@ img.shadow {
 
 @media (max-width: 1000px) { /* Adjusts for devices with screens up to 768px wide */
   .img-responsive {
-      width: 30%; /* Reduce width to 50% on smaller screens */
+      width: 45%; /* Reduce width to 50% on smaller screens */
+      margin-bottom: 15px;
+  }
+}
+
+.img-responsive-profile {
+  width: 100%; /* Default to full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 1000px) { /* Adjusts for devices with screens up to 768px wide */
+  .img-responsive-profile {
+      width: 35%; /* Reduce width to 50% on smaller screens */
       margin-bottom: 15px;
   }
 }

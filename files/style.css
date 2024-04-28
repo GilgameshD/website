@@ -1,0 +1,55 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left side */
+  margin-left: 18px; /* Space for the timeline */
+  position: relative;
+  padding-top: 20px; /* Space on top and bottom */
+  padding-bottom: 0px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 82px; /* Position the line to the left */
+  top: 40px;
+  bottom: 20px;
+  border-left: 3px solid #5b87bc; /* The vertical line */
+  z-index: 0; /* Lower z-index so it's behind the dot */
+}
+
+.entry {
+  display: flex;
+  align-items: center; /* Centers the items vertically */
+  margin-bottom: 10px; /* Adjust the space between entries */
+}
+
+.timespan {
+  margin-right: 10px; /* Space between the timespan and the logo */
+  white-space: nowrap; /* Ensures the timespan does not wrap */
+}
+
+.ico {
+  display: flex;
+  align-items: center; /* Align the dot and the logo vertically */
+  margin-right: 15px; /* Space between the logo and the description */
+}
+
+.entry-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #5b87bc;
+  border-radius: 50%;
+  margin-right: 10px; /* Space between the dot and the logo */
+  border: 2px solid white;
+  z-index: 1; /* Higher z-index so the dot is above the line */
+}
+
+.logo {
+  /* No specific size here, adjust as needed */
+}
+
+.desc {
+  flex: 1; /* Takes the remaining space */
+}
+

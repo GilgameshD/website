@@ -53,6 +53,10 @@
   flex: 1; /* Takes the remaining space */
 }
 
+img.rounded {
+  border-radius: 8px; /* Adjust the px value to get the desired roundness */
+}
+
 img.rounded-shadow {
   border-radius: 15px; /* Adjust the px value to get the desired roundness */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Adjust values for different shadow effects */
